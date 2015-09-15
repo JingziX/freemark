@@ -1,0 +1,3 @@
+include指令
+可以在当前的模板中插入其他文件的内容。
+<#include "/copyright_footer.html">
