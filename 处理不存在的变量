@@ -1,0 +1,3 @@
+可以指定一个默认值来避免变量丢失的情况，通过在变量后面跟着！和默认值，
+例如：<h1>Welcome ${user!"Anonymous"}!</h1>
+也可以<#if user??><h1>Welcome ${user}!</h1></#if>
